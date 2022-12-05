@@ -4,9 +4,22 @@ public class Apple {
 	int price;
 	int grade;
 	
+<<<<<<< HEAD
 	public void ate() {
 		price -= 800;
 	}
+=======
+	boolean clean;
+	
+	public void eat() {
+		price -= 1000;
+	}
+	
+	public void wash() {
+		clean = true;
+	}
+	
+>>>>>>> refs/heads/branch1
 }
 
 
